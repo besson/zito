@@ -1,4 +1,4 @@
-# zito — ListingIQ
+# zito
 
 Structured attribute extraction + relevance ranking for e-commerce listings.
 
