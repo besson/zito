@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# uv
+uv.lock.bak
+
+# env / secrets
+.env
+
+# data — versioned via DVC/W&B Artifacts, not git
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# model artifacts
+*.pt
+*.safetensors
+*.bin
+checkpoints/
+adapters/
+
+# tracking
+mlflow.db
+mlruns/
+wandb/
+
+# tooling caches
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
